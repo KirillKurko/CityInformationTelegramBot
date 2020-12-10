@@ -1,0 +1,9 @@
+CREATE DATABASE CityInformation;
+
+USE CityInformation;
+
+CREATE TABLE City (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(60) UNIQUE NOT NULL,
+    message VARCHAR(256) NOT NULL
+);
