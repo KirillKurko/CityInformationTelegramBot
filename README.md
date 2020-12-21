@@ -47,6 +47,6 @@ spring.datasource.username=root
 spring.datasource.password=12qazwsx
 ```
 
-## Configuration
+## Launch
 
 When the configuration is done you just need to run `CityInformationApplication` to make our REST API work and `Aplication` to start the bot. 
